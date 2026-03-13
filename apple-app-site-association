@@ -193,7 +193,7 @@
             "comment": "Matches any URL with a path that starts with /forex*. This will mainly used to redirect Forex funnel users to apps."
           },
           {
-            "/": "/mytrips*",
+            "/": "/mytrips/",
             "comment": "Matches any URL with a path that starts with /mytrips/."
           },
           {
