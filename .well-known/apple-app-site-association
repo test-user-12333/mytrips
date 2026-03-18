@@ -1,213 +1,39 @@
 {
   "applinks": {
+    "apps": [
+
+    ],
     "details": [
       {
         "appIDs": [
           "ZC9MXP2FUK.com.Iphone.MMT",
           "BJ44HUPYQ7.com.Ios.MMT"
         ],
-        "components": [
-          {
-            "#": "no_universal_links",
-            "exclude": true,
-            "comment": "Matches any URL with a fragment that equals no_universal_links and instructs the system not to open it as a universal link."
-          },
-          {
-            "/": "/",
-            "?": {
-              "action": "smartbuy"
-            },
-            "exclude": true,
-            "comment": "Matches any URL whose path starts with / and that has a query item with name 'action' and a value of smartbuy"
-          },
-          {
-            "/": "/hotels/",
-            "?": {
-              "referrer": "smartbuy"
-            },
-            "exclude": true,
-            "comment": "Matches any URL whose path starts with /hotels/ and that has a query item with name 'referrer' and a value of smartbuy"
-          },
-          {
-            "/": "/hotels/hotel-review/",
-            "?": {
-              "quoteId": "*"
-            },
-            "exclude": true,
-            "comment": "Matches any URL whose path starts with /hotels/hotel-review/ and that has a query item with name 'quoteId' and a value of *"
-          },
-          {
-            "/": "/hotels/approval/",
-            "?": {
-              "quoteId": "*"
-            },
-            "exclude": true,
-            "comment": "Matches any URL whose path starts with /hotels/approval/ and that has a query item with name 'quoteId' and a value of *"
-          },
-          {
-            "/": "/",
-            "comment": "Matches any URL with a path that starts with /"
-          },
-          {
-            "/": "/forgotPassword/",
-            "comment": "Matches any URL with a path that starts with /forgotPassword/"
-          },
-          {
-            "/": "/changephone/",
-            "comment": "Matches any URL with a path that starts with /changephone/."
-          },
-          {
-            "/": "/signup/",
-            "comment": "Matches any URL with a path that starts with /signup/."
-          },
-          {
-            "/": "/login/",
-            "comment": "Matches any URL with a path that starts with /login/."
-          },
-          {
-            "/": "/flights/*",
-            "comment": "Matches any URL with a path that starts with /flights/*."
-          },
-          {
-            "/": "/flight/*",
-            "comment": "Matches any URL with a path that starts with /flight/*."
-          },
-          {
-            "/": "/flight/search/*",
-            "comment": "Matches any URL with a path that starts with /flight/search/*."
-          },
-          {
-            "/": "/flight/sem/search/*",
-            "comment": "Matches any URL with a path that starts with /flight/sem/search/*."
-          },
-          {
-            "/": "/flight/review/*",
-            "comment": "Matches any URL with a path that starts with /flight/review/*."
-          },
-          {
-            "/": "/international-flights/*",
-            "comment": "Matches any URL with a path that starts with /international-flights/*."
-          },
-          {
-            "/": "/hotels-international/*",
-            "comment": "Matches any URL with a path that starts with /hotels-international/*."
-          },
-          {
-            "/": "/international/*",
-            "comment": "Matches any URL with a path that starts with /international/*."
-          },
-          {
-            "/": "/hotels/*",
-            "comment": "Matches any URL with a path that starts with /hotels/*."
-          },
-          {
-            "/": "/holidays-india/*",
-            "comment": "Matches any URL with a path that starts with /holidays-india/*."
-          },
-          {
-            "/": "/holidays-international/*",
-            "comment": "Matches any URL with a path that starts with /holidays-international/*."
-          },
-          {
-            "/": "/mbus/*",
-            "comment": "Matches any URL with a path that starts with /mbus/*."
-          },
-          {
-            "/": "/railways/*",
-            "comment": "Matches any URL with a path that starts with /railways/*."
-          },
-          {
-            "/": "/Mima/",
-            "comment": "Matches any URL with a path that starts with /Mima/."
-          },
-          {
-            "/": "/holidays/sendQuery30!packageSendQueryForm",
-            "comment": "Matches any URL with a path that starts with /holidays/sendQuery30!packageSendQueryForm."
-          },
-          {
-            "/": "/makemytrip/site/hotels/search/",
-            "comment": "Matches any URL with a path that starts with /makemytrip/site/hotels/search/."
-          },
-          {
-            "/": "/makemytrip/site/hotels/detail/",
-            "comment": "Matches any URL with a path that starts with /makemytrip/site/hotels/detail/."
-          },
-          {
-            "/": "/pwa/flights-listing",
-            "comment": "Matches any URL with a path that starts with /pwa/flights-listing."
-          },
-          {
-            "/": "/pwa/flights-listing-intl",
-            "comment": "Matches any URL with a path that starts with /pwa/flights-listing-intl."
-          },
-          {
-            "/": "/pwa/hotel-listing",
-            "comment": "Matches any URL with a path that starts with /pwa/hotel-listing."
-          },
-          {
-            "/": "/pwa/hotel-details",
-            "comment": "Matches any URL with a path that starts with /pwa/hotel-details."
-          },
-          {
-            "/": "/car-rental/*",
-            "comment": "Matches any URL with a path that starts with /car-rental/*."
-          },
-          {
-            "/": "/bus-tickets/*",
-            "comment": "Matches any URL with a path that starts with /bus-tickets/*. This will mainly used to redirect SEO users to apps"
-          },
-          {
-            "/": "/toursandattractions/landing/",
-            "comment": "Matches any URL with a path that starts with /toursandattractions/landing/. This will mainly used to redirect SEO users to apps"
-          },
-          {
-            "/": "/toursandattractions/listing/",
-            "comment": "Matches any URL with a path that starts with /toursandattractions/listing/. This will mainly used to redirect SEO users to apps"
-          },
-          {
-            "/": "/toursandattractions/details/",
-            "comment": "Matches any URL with a path that starts with /toursandattractions/details/. This will mainly used to redirect SEO users to apps"
-          },
-           {
-            "/": "/tripideas/places/*",
-            "comment": "Matches any URL with a path that starts with /tripideas/places/*. This will mainly used to redirect SEO users to apps"
-          },
-          {
-            "/": "/tripideas/attractions/*",
-            "comment": "Matches any URL with a path that starts with /tripideas/attractions/*. This will mainly used to redirect SEO users to apps"
-          },
-          {
-            "/": "/tripideas/country/*",
-            "comment": "Matches any URL with a path that starts with /tripideas/country/*. This will mainly used to redirect SEO users to apps"
-          },
-          {
-            "/": "/tripideas/state/*",
-            "comment": "Matches any URL with a path that starts with /tripideas/state/*. This will mainly used to redirect SEO users to apps"
-          },
-          {
-            "/": "/tripmoney*",
-            "comment": "Matches any URL with a path that starts with /tripmoney*. This will mainly used to redirect Forex SEO users to apps"
-          },
-          {
-            "/": "/forex*",
-            "comment": "Matches any URL with a path that starts with /forex*. This will mainly used to redirect Forex funnel users to apps."
-          },
-          {
-            "/": "/mytrips*",
-            "comment": "Matches any URL with a path that starts with /mytrips*."
-          },
-          {
-            "/": "/insurance*",
-            "comment": "Matches any URL with a path that starts with /insurance*."
-          }
+        "paths": [
+          "/",
+          "/flights/*",
+          "/international-flights/*",
+          "/hotels-international/*",
+          "/international/*",
+          "/hotels/*",
+          "/holidays-india/*",
+          "/holidays-international/*",
+          "/bus-tickets/*",
+          "/railways/*",
+          "NOT /MyAccount/HolidayBooking/*",
+          "NOT /MyAccount/Communication/param?act=2001",
+          "/MyAccount/*",
+          "/makemytrip/search/*",
+          "/makemytrip/site/hotels/search/",
+          "/makemytrip/site/hotels/detail/",
+          "/pwa/flights-listing",
+          "/pwa/flights-listing-intl",
+          "/pwa/hotel-listing",
+          "/pwa/hotel-details",
+          "NOT /Mima/CustomerSupport/*",
+         "/mytrips/*"
         ]
       }
-    ]
-  },
-  "webcredentials": {
-    "apps": [
-      "ZC9MXP2FUK.com.Iphone.MMT",
-      "BJ44HUPYQ7.com.Ios.MMT"
     ]
   }
 }
